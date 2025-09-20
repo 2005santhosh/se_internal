@@ -1,1 +1,13 @@
-diff --git a/...
+--- attendance.py	2025-09-20 12:00:00.000000000 +0000
++++ attendance.py	2025-09-20 12:10:00.000000000 +0000
+@@ -1,3 +1,10 @@
+-def mark_present(student_id):
+-    print(f"Student {student_id} marked as present.")
++def mark_present(student_id):
++    # Mark student as present and confirm
++    print(f"Student {student_id} has been marked as present.")
++
++
++def mark_absent(student_id):
++    # Mark student as absent and confirm
++    print(f"Student {student_id} has been marked as absent.")
